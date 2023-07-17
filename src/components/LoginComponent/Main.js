@@ -17,7 +17,7 @@ export default function Main() {
                         </div>
                         
                         <div class="submit-btn">
-                            <input type="submit" class="submit" />
+                            <input type="submit" value='Join' class="submit" />
                         </div>
                     </form>
 
