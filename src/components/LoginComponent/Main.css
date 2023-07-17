@@ -6,3 +6,76 @@
     align-items: center;
     justify-content: center;
 }
+.right-section{
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px 0px;
+    box-shadow:3px 5px rgba(0, 0,0,.3);
+
+}
+.right-section h4{
+    font-size: 20px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    color:rgb(136,136,136);
+
+}
+
+.input-group{
+    width: 300px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.input-group label{
+    color: rgb(165,165,165);
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+    transition: 0.5s ease-in-out;
+   
+
+}
+.input-group input{
+    border: none;
+    padding: 7px;
+    outline: none;
+    border-bottom: 1px solid #c9c98a;
+}
+
+.input-group input:focus ~label,
+.input-group input:valid ~label{
+    color: red;
+    top: -10px;
+    font-size: 12px;
+
+}
+.input-group input:focus ,
+.input-group input:valid {
+    border-color: blue;
+
+}
+
+
+.submit-btn input{
+    background-color: aqua;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 300px;
+    cursor: pointer;
+
+}
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit-btn input:hover{
+    box-shadow: 0px 3px 6px silver;
+    background-color: rgb(99, 99, 139);
+}
