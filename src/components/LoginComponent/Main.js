@@ -12,8 +12,8 @@ export default function Main() {
                           <label for="name">Name</label>
                         </div>
                         <div class="input-group">
-                            <input type="number" id="emai" required />
-                            <label for="emai">Room No</label>
+                            <input type="number" id="no" required />
+                            <label for="no">Room No</label>
                         </div>
                         
                         <div class="submit-btn">

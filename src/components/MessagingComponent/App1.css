@@ -1,0 +1,51 @@
+.app {
+    display: flex;
+  }
+  
+  .chat-window {
+    flex: 1;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  
+  .messages {
+    overflow-y: scroll;
+    height: 400px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+  }
+  
+  .author {
+    font-weight: bold;
+  }
+  
+  .input-bar {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .input-bar input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+  
+  .sidebar {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .preview {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
